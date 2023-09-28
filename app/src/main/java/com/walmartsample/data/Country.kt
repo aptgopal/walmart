@@ -1,3 +1,3 @@
 package com.walmartsample.data
 
-data class Country(val countryName:String,val countryRegion:String, val countryCode:String, val capital:String)
+data class Country(val name:String,val region:String, val code:String, val capital:String)
