@@ -58,10 +58,16 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-
+    testImplementation ("org.mockito:mockito-core:3.0.0")
+    testImplementation ("org.mockito:mockito-inline:3.0.0")
+    testImplementation ("com.squareup.okhttp3:mockwebserver:4.9.0")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.0")
+    implementation ("androidx.arch.core:core-testing:2.2.0")
+    testImplementation ("org.mockito:mockito-core:3.0.0")
+    testImplementation ("org.mockito:mockito-inline:3.0.0")
     //API dependencies
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation ("com.squareup.okhttp3:okhttp:4.7.2")
+    implementation ("com.squareup.okhttp3:okhttp:4.9.0")
     implementation ("com.squareup.okhttp3:logging-interceptor:4.7.2")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
 
